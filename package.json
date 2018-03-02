@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run test:html",
-    "test:html": "globstar nu-html-checker *.html",
-    "init-project": "mkdirp sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
-  },
+  "scripts": { 
+    "test": "npm run test:html", 
+    "test:html": "globstar nu-html-checker *.html",  
+    "init-project": "npm install && npm run init:dirs && npm run init:files && npm run init:gitignore", 
+    "init:dirs": "mkdirp sass css vendor images js", 
+    "init:files": "touch README.md index.html sass/style.scss js/script.js", 
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore" 
+   }, 
+   
   "repository": {
     "type": "git",
     "url": "git+https://github.com/profitm/nauka-gita-2.1.git"
