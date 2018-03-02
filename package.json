@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": { 
     "test": "npm run test:html", 
-    "test:html": "nu-html-checker *.html" 
+    "test:html": "globstar nu-html-checker *.html" 
    }, 
+   
+   
    
   "repository": {
     "type": "git",
