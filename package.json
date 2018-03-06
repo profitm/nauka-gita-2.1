@@ -42,6 +42,7 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "onchange": "^3.3.0",
+    "rimraf": "^2.6.2",
     "save-dev": "^2.0.0"
   }
 }
