@@ -1,2 +1,2 @@
 # learning-git-2
-https://github.com/profitm/nauka-gita-2.1
+https://profitm.github.io/nauka-gita-2.1/
